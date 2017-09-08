@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+body{
+font-family: 'Baloo Bhaijaan', cursive;
+
+
+
+}
+
+h1{
+font-size: 75px;
+
+
+}
+
+
+li{font-size:30px}
+p{font-size:20px}
+.ninjaPic{
+border-color: black;
+border-width: 5px;
+border-style: dotted;
+border-radius: 50px;
+width: 1000px}
+
+.Aidan{
+	border-color: black;
+border-width: 5px;
+border-style: groove;
+border-radius: 50px;
+width: 300px 
+}
+
