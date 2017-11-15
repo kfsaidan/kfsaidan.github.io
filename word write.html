@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pong</title>
+</head>
+<body>
+<p>This is my Pong Game- totally by Aidan Park.</p>
+<br/>
+<canvas id="gameCanvas" width="800" height="600"></canvas>
+<script type="text/javascript">
+	var canvas;
+	var canvasContext;
+
+	
+	window.onload = function(){
+	canvas = document.getElementById('gameCanvas');
+	canvasContext = canvas.getContext ("2d");
+
+canvasContext.fillStyle = 'green';
+canvasContext.fillRect(0,0,canvas.width,canvas.height);
+canvasContext.fillStyle = ' black ';
+canvasContext.fillRect(100,50, 50,500);
+canvasContext.fillStyle = ' black ';
+canvasContext.fillRect(125,250, 150,50);
+canvasContext.fillStyle = ' black ';
+canvasContext.fillRect(250,50, 50,500);
+canvasContext.fillStyle = ' black ';
+canvasContext.fillRect(400,50, 50,500);
+canvasContext.fillStyle = ' black ';
+canvasContext.fillRect(350,50, 150,50);
+canvasContext.fillStyle = ' black ';
+canvasContext.fillRect(350,500, 150,50);
+canvasContext.fillStyle = ' black ';
+canvasContext.fillRect(600,50, 50,380);
+canvasContext.fillStyle = ' black ';
+canvasContext.fillRect(600,500, 50,50);
+	}
+</script>
+</body>
+</html>
